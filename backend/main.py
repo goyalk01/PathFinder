@@ -45,6 +45,7 @@ def startup() -> None:
 
 
 @app.get("/health")
+@app.head("/health")
 def health() -> dict[str, str]:
     return {"status": "ok"}
 
