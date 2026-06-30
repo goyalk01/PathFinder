@@ -20,6 +20,7 @@ PathFinder is a complete local hackathon prototype for ASHA workers, government 
 Install backend dependencies:
 
 ```bash
+cd backend
 pip install -r requirements.txt
 ```
 
