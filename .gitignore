@@ -35,3 +35,4 @@ pdfs/*.pdf
 # OS Metadata
 .DS_Store
 Thumbs.db
+context.md
