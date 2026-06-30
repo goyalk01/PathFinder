@@ -4,7 +4,10 @@ import os
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+if os.path.exists(".env.production"):
+    load_dotenv(".env.production")
+else:
+    load_dotenv()
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware

@@ -36,3 +36,11 @@ pdfs/*.pdf
 .DS_Store
 Thumbs.db
 context.md
+
+# Logs
+backend/backend_logs.txt
+frontend/frontend_logs.txt
+*.log
+
+# Production Env
+backend/.env.production
